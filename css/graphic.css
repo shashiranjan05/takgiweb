@@ -1,0 +1,20 @@
+/* CSS Document */
+#content1page { 
+  margin: 15px auto;
+     width: 83%;
+	 
+  
+  }
+  
+.content1{
+float:left;
+	width:60%;
+	padding-left:8.5%;
+	margin-top:1%;
+}
+.cimage{
+float:right;
+width:36%;	
+padding-right:8.2%;
+margin-top:1%;
+}

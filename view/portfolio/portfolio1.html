@@ -1,0 +1,89 @@
+<div class="container">
+<div class="col-md-5">
+<h3 style="font-family:Georgia, 'Times New Roman', Times, serif">RESBhakura,Ara</h3>
+<h4>Royal English School Bhakura ,Ara Bhojpur.</h4> 
+<p>It is one of the most best school in Eastern Area.</p>
+
+</div>
+<div class="col-md-5">
+<button id="myBtn1"><img src="images/pof2.JPG" alt="" style="width:100%"  /></button>
+<div id="myModal1" class="modal1">
+
+  <!-- Modal content -->
+  <div class="modal1-content1">
+    <span class="close1"><img src="images/cross.png" width="76" height="72"></span>
+<img src="images/pof2.JPG" alt="" style="width:100%"  />
+</div></div></div>
+
+</div>
+<style>
+/* The Modal (background) */
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color:rgba(0,102,255,1); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal1-content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+	border-color:brown;
+}
+
+/* The Close Button */
+.close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
+<script>
+// Get the modal
+var modal1 = document.getElementById('myModal1');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close1")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal1.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal1.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+}
+</script>
+
+
