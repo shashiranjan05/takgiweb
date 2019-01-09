@@ -1,2 +1,2 @@
 # takgiweb
-Developed a website for webdesigning company.
+Developed a website for web designing company.
