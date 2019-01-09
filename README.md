@@ -1,2 +1,2 @@
 # takgiweb
-this is a website developing comany
+Developed a website for webdesigning company.
